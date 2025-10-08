@@ -1,73 +1,107 @@
-# Welcome to your Lovable project
+# DentalPK - Dental Equipment & Supplies Platform
 
-## Project info
+A modern dental equipment and supplies platform built with React, TypeScript, and Vite.
 
-**URL**: https://lovable.dev/projects/589e3127-f2fd-4786-8a6f-c0a5f6f1967b
+## 🚀 Features
 
-## How can I edit this code?
+- Modern React application with TypeScript
+- Responsive design with Tailwind CSS
+- Component library with shadcn/ui
+- Fast development with Vite
+- Comprehensive dental equipment catalog
+- Professional dental supplies marketplace
 
-There are several ways of editing your application.
+## 🛠️ Technologies Used
 
-**Use Lovable**
+- **Frontend**: React 18, TypeScript
+- **Styling**: Tailwind CSS, shadcn/ui components
+- **Build Tool**: Vite
+- **UI Components**: Radix UI primitives
+- **Form Handling**: React Hook Form with Zod validation
+- **Routing**: React Router DOM
+- **Charts**: Recharts
+- **Icons**: Lucide React
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/589e3127-f2fd-4786-8a6f-c0a5f6f1967b) and start prompting.
+## 📦 Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+Make sure you have Node.js installed (version 16 or higher recommended).
 
-**Use your preferred IDE**
+```bash
+# Clone the repository
+git clone https://github.com/MavCodeAI/dentalpk.git
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Navigate to the project directory
+cd dentalpk
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# Install dependencies
+npm install
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🔧 Available Scripts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `npm run dev` - Start the development server
+- `npm run build` - Build the project for production
+- `npm run build:dev` - Build the project in development mode
+- `npm run lint` - Run ESLint for code quality
+- `npm run preview` - Preview the production build locally
 
-**Use GitHub Codespaces**
+## 📁 Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Application pages
+├── hooks/         # Custom React hooks
+├── lib/           # Utility functions and configurations
+├── App.tsx        # Main application component
+└── main.tsx       # Application entry point
+```
 
-## What technologies are used for this project?
+## 🎨 UI Components
 
-This project is built with:
+This project uses shadcn/ui for consistent and accessible UI components:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Buttons, Forms, and Input controls
+- Navigation and Menu components
+- Data display components (Tables, Cards)
+- Overlay components (Dialogs, Tooltips)
+- Layout components (Accordion, Tabs)
 
-## How can I deploy this project?
+## 🚀 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/589e3127-f2fd-4786-8a6f-c0a5f6f1967b) and click on Share -> Publish.
+To deploy this application:
 
-## Can I connect a custom domain to my Lovable project?
+1. Build the project:
+   ```bash
+   npm run build
+   ```
 
-Yes, you can!
+2. The `dist` folder contains the production-ready files that can be deployed to any static hosting service:
+   - Netlify
+   - Vercel
+   - GitHub Pages
+   - AWS S3
+   - Any web server
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🤝 Contributing
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Support
+
+For support or questions, please open an issue in the GitHub repository.
+
+---
+
+**DentalPK** - Your trusted partner for dental equipment and supplies.
